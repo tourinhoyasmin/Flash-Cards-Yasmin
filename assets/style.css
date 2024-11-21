@@ -98,17 +98,16 @@ footer p {
 }
 
 @media (max-width: 560px){
-body{
-        background: url(img/bg-mobile.webp);
-    }
-.cartao{
-    flex: 1 0 calc(100% - 1rem);
+    body {
+    background: url(img/bg-mobile.webp);
 }
-.cartao__conteudo h3{
+.cartao{
+    flex: 1 0 calc (100% - 1rem);
+}
+.cartao__conteudo h3 {
     font-size: 3vw;
 }
-.cartao__conteudo p{
+.cartao__conteudo p {
     font-size: 3.8vw;
 }
-
 }
